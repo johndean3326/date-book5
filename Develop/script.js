@@ -2,20 +2,6 @@ var dateEl = $('#currentDay');
 var curDate = dayjs()
 
 
-// $(function () {
-//   dateEl.text(curDate)
-//   $( ".time-block" ).each(function( index,timeBlock ) {
-//     var hour = $(timeBlock).children('div')
-//     var textarea = $(timeBlock).children('textarea')
-//     var button = $(timeBlock).children('button')
-//     localStorage.getItem('textarea')
-//     let timeBlockTime = $(timeBlock).attr('id').split('-')[1]
-//     console.log(timeBlockTime)
-//       button.on('click', function(event){
-//     var thisBtn = $(event.target)})
-//       })
-//     })
-
 let hours=[9,10,11,12,1,2,3,4,5]
 function saveData(event) {
  event.preventDefault()
